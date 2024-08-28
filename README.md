@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# byteCode Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+byteCode Landing Page is a responsive web application built using React.js and Material UI. The project is designed to be a modern and sleek landing page that highlights the services and features of byteCode.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Responsive design for both mobile and desktop
+- Built with React.js for dynamic rendering
+- Styled with Material UI for a modern look
+- Easy to maintain and scale
+- Integration with external APIs (if applicable)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**: JavaScript library for building user interfaces.
+- **Material UI**: React components for faster and easier web development.
+- **Figma**: Used for designing the UI/UX of the landing page.
+- **Bitbucket**: Version control and collaboration platform for the repository.
+- **Visual Studio Code**: Code editor for development.
 
-### `npm run build`
+## Setup and Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To set up the project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://bitbucket.org/tu_usuario/byteCode-landing.git
+   cd byteCode-landing
 
-### `npm run eject`
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install dependencies:**
+   npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Start the development server:**
+   npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **View the application:**
+   Open http://localhost:3000 in your browser to see the landing page in action.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+- The project is organized into components to keep the code modular and reusable.
+- You can create new features by adding components under the src/components directory.
+- Use the src/styles directory for custom styles.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+├── public
+│ ├── index.html
+│ └── ...
+├── src
+│ ├── assets
+│ ├── components
+│ ├── pages
+│ ├── styles
+│ ├── App.js
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
 
-### Code Splitting
+- public: Contains the static files such as index.html.
+- src: Contains the source code of the application.
+  - assets: For images, icons, and other media files.
+  - components: Reusable components for the application.
+  - pages: Page components that represent different views.
+  - styles: Custom styling files.
+  - App.js: Main component that ties everything together.
+  - index.js: Entry point for the React application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+We welcome contributions from the team! To contribute: 1. Fork the repository. 2. Create a new branch (feature/new-feature). 3. Make your changes. 4. Commit your changes (git commit -m 'Add new feature'). 5. Push to the branch (git push origin feature/new-feature). 6. Open a Pull Request.
+Please make sure to update tests as appropriate.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any inquiries or issues, please contact orellana.marketing@gmail.com or open an issue on the repository.
