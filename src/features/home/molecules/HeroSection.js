@@ -11,9 +11,9 @@ const HeroSection = () => {
         alignItems: "center",
         justifyContent: "center",
         height: "100vh",
-        backgroundImage: "url(/path/to/your/background.jpg)",
+        backgroundImage: "url('./backgroundHeroSection.jpg')",
         backgroundSize: "cover",
-        color: "#fff",
+        color: "white",
         textAlign: "center",
       }}
     >
