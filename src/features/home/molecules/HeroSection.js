@@ -1,20 +1,20 @@
-import React from "react";
-import Box from "@mui/material/Box";
-import HeroTitle from "../atoms/HeroTitle";
+import React from 'react';
+import Box from '@mui/material/Box';
+import HeroTitle from '../atoms/HeroTitle';
 
 const HeroSection = () => {
   return (
     <Box
       sx={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        height: "100vh",
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: '100vh',
         backgroundImage: "url('./backgroundHeroSection.jpg')",
-        backgroundSize: "cover",
-        color: "white",
-        textAlign: "center",
+        backgroundSize: 'cover',
+        color: 'white',
+        textAlign: 'center',
       }}
     >
       <HeroTitle text="Welcome to byteCode" />
