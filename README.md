@@ -1,45 +1,97 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# byteCode Landing Page
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+## Overview
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+byteCode Landing Page is a responsive web application built using React.js and Material UI. The project is designed to be a modern and sleek landing page that highlights the services and features of byteCode.
 
----
+## Table of Contents
 
-## Edit a file
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+## Features
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+- Responsive design for both mobile and desktop
+- Built with React.js for dynamic rendering
+- Styled with Material UI for a modern look
+- Easy to maintain and scale
+- Integration with external APIs (if applicable)
 
----
+## Technologies Used
 
-## Create a file
+- **React.js**: JavaScript library for building user interfaces.
+- **Material UI**: React components for faster and easier web development.
+- **Figma**: Used for designing the UI/UX of the landing page.
+- **Bitbucket**: Version control and collaboration platform for the repository.
+- **Visual Studio Code**: Code editor for development.
 
-Next, you’ll add a new file to this repository.
+## Setup and Installation
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+To set up the project locally, follow these steps:
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+1. **Clone the repository:**
 
----
+   ```bash
+   git clone https://bitbucket.org/tu_usuario/byteCode-landing.git
+   cd byteCode-landing
 
-## Clone a repository
+   ```
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+2. **Install dependencies:**
+   npm install
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+3. **Start the development server:**
+   npm start
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+4. **View the application:**
+   Open http://localhost:3000 in your browser to see the landing page in action.
+
+## Usage
+
+- The project is organized into components to keep the code modular and reusable.
+- You can create new features by adding components under the src/components directory.
+- Use the src/styles directory for custom styles.
+
+## Project Structure
+
+├── public
+│ ├── index.html
+│ └── ...
+├── src
+│ ├── assets
+│ ├── components
+│ ├── pages
+│ ├── styles
+│ ├── App.js
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+
+- public: Contains the static files such as index.html.
+- src: Contains the source code of the application.
+  - assets: For images, icons, and other media files.
+  - components: Reusable components for the application.
+  - pages: Page components that represent different views.
+  - styles: Custom styling files.
+  - App.js: Main component that ties everything together.
+  - index.js: Entry point for the React application.
+
+## Contributing
+
+We welcome contributions from the team! To contribute: 1. Fork the repository. 2. Create a new branch (feature/new-feature). 3. Make your changes. 4. Commit your changes (git commit -m 'Add new feature'). 5. Push to the branch (git push origin feature/new-feature). 6. Open a Pull Request.
+Please make sure to update tests as appropriate.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+For any inquiries or issues, please contact orellana.marketing@gmail.com or open an issue on the repository.
