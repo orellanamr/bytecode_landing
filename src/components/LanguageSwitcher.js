@@ -11,8 +11,24 @@ function LanguageSwitcher() {
 
   return (
     <div>
-      <Button onClick={() => changeLanguage('en')}>English</Button>
-      <Button onClick={() => changeLanguage('es')}>Español</Button>
+      <Button
+        onClick={() => changeLanguage('en')}
+        style={{
+          color: '#505050', // Color del texto
+          backgroundColor: '#FFFFFF', // Color del botón
+        }}
+      >
+        English
+      </Button>
+      <Button
+        onClick={() => changeLanguage('es')}
+        style={{
+          color: '#505050',
+          backgroundColor: '#FFFFFF',
+        }}
+      >
+        Español
+      </Button>
     </div>
   );
 }

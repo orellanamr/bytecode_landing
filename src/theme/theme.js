@@ -16,6 +16,7 @@ const theme = createTheme({
     fontFamily: 'Source Code Pro, monospace',
     button: {
       fontFamily: 'Aeonik, sans-serif',
+      color: '#040404',
     },
   },
 });
