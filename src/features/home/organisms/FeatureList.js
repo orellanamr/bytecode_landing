@@ -1,12 +1,12 @@
-import React from "react";
-import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
+import React from 'react';
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
 
 const features = [
-  { title: "Feature 1", description: "Description of feature 1." },
-  { title: "Feature 2", description: "Description of feature 2." },
-  { title: "Feature 3", description: "Description of feature 3." },
+  { title: 'Feature 1', description: 'Description of feature 1.' },
+  { title: 'Feature 2', description: 'Description of feature 2.' },
+  { title: 'Feature 3', description: 'Description of feature 3.' },
 ];
 
 const FeatureList = () => {

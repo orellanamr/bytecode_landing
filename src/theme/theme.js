@@ -1,22 +1,21 @@
-import { createTheme } from "@mui/material/styles";
-import { red } from "@mui/material/colors";
+import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
     background: {
-      default: "#F4F4F4",
+      default: '#F4F4F4',
     },
     text: {
-      primary: "#010101",
+      primary: '#010101',
     },
     primary: {
-      main: "#DDF247",
+      main: '#DDF247',
     },
   },
   typography: {
-    fontFamily: "Source Code Pro, monospace",
+    fontFamily: 'Source Code Pro, monospace',
     button: {
-      fontFamily: "Aeonik, sans-serif",
+      fontFamily: 'Aeonik, sans-serif',
     },
   },
 });
