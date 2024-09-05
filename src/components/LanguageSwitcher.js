@@ -14,8 +14,8 @@ function LanguageSwitcher() {
       <Button
         onClick={() => changeLanguage('en')}
         style={{
-          color: '#505050', // Color del texto
-          backgroundColor: '#FFFFFF', // Color del botón
+          color: '#505050',
+          backgroundColor: '#FFFFFF',
         }}
       >
         English
