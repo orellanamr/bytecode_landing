@@ -6,7 +6,7 @@ const theme = createTheme({
       default: '#F4F4F4',
     },
     text: {
-      primary: '#040404',
+      primary: '#010101',
     },
     primary: {
       main: '#DDF247',
@@ -16,7 +16,6 @@ const theme = createTheme({
     fontFamily: 'Source Code Pro, monospace',
     button: {
       fontFamily: 'Aeonik, sans-serif',
-      color: '#040404',
     },
   },
 });
