@@ -1,35 +1,24 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Button from '@mui/material/Button';
+import { Select, MenuItem } from '@mui/material';
 
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
 
-  const changeLanguage = lng => {
-    i18n.changeLanguage(lng);
+  const changeLanguage = event => {
+    const selectedLanguage = event.target.value;
+    i18n.changeLanguage(selectedLanguage);
   };
 
   return (
-    <div>
-      <Button
-        onClick={() => changeLanguage('en')}
-        style={{
-          color: '#505050',
-          backgroundColor: '#FFFFFF',
-        }}
-      >
-        English
-      </Button>
-      <Button
-        onClick={() => changeLanguage('es')}
-        style={{
-          color: '#505050',
-          backgroundColor: '#FFFFFF',
-        }}
-      >
-        Español
-      </Button>
-    </div>
+    <Select
+      value={i18n.language}
+      onChange={changeLanguage}
+      sx={{ color: '#505050', backgroundColor: '#FFFFFF' }}
+    >
+      <MenuItem value="en">English</MenuItem>
+      <MenuItem value="es">Español</MenuItem>
+    </Select>
   );
 }
 
