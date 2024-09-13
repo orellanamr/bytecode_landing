@@ -1,10 +1,11 @@
 import React from 'react';
-import HomePage from './features/home/pages/HomePage';
+import HeroSection from './components/organisms/HeroSection/HeroSection';
 
 function App() {
   return (
-    <div className="App">
-      <HomePage />
+    <div>
+      <HeroSection />
+      {/* Otras secciones del sitio */}
     </div>
   );
 }
