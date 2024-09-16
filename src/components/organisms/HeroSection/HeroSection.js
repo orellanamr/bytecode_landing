@@ -45,7 +45,7 @@ const HeroSection = () => {
         sx={{ padding: '200px 50px' }}
       >
         <Typography variant="h3" sx={{ fontWeight: 'medium', mb: 2 }}>
-          {t('hero.title1')}
+          {t('hero_title_1')}
           <span className="icon">
             <img src={CodeCircle} alt="Code Circle" />
           </span>{' '}
@@ -54,7 +54,7 @@ const HeroSection = () => {
           variant="h3"
           sx={{ fontWeight: 'medium', mb: 2, padding: '0px 0px 50px 0px' }}
         >
-          {t('hero.title2')}
+          {t('hero_title_2')}
         </Typography>
 
         <Grid item xs={12} container justifyContent="space-between">
@@ -62,7 +62,7 @@ const HeroSection = () => {
         </Grid>
 
         <Typography variant="h6" sx={{ mb: 4, padding: '0px 0px 50px 0px' }}>
-          {t('hero.subtitle')}
+          {t('hero_subtitle')}
         </Typography>
         <Button
           variant="contained"
@@ -74,7 +74,7 @@ const HeroSection = () => {
             justifyContent: 'center',
           }}
         >
-          {t('hero.cta')}
+          {t('hero_cta')}
           <img src={MyIcon} alt="Mi Icono" style={{ marginLeft: '10px' }} />
         </Button>
       </Grid>
