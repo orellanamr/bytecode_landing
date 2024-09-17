@@ -1,10 +1,12 @@
 import React from 'react';
-import HomePage from './features/home/pages/HomePage';
+import HeroSection from './components/organisms/HeroSection/HeroSection';
+import TechCarousel from './components/organisms/TechCarousel/TechCarousel';
 
 function App() {
   return (
-    <div className="App">
-      <HomePage />
+    <div>
+      <HeroSection />
+      <TechCarousel />
     </div>
   );
 }
