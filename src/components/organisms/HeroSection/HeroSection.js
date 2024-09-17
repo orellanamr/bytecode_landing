@@ -45,7 +45,7 @@ const HeroSection = () => {
         sx={{ padding: '200px 50px' }}
       >
         <Typography variant="h3" sx={{ fontWeight: 'medium', mb: 2 }}>
-          {t('hero_title_1')}
+          {t('landing_page.hero_title_1')}
           <span className="icon">
             <img src={CodeCircle} alt="Code Circle" />
           </span>{' '}
