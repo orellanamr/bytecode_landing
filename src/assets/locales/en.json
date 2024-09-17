@@ -1,9 +1,8 @@
 {
+    "heroSection": {
     "hero_title_1": "Transforming ideas ",
     "hero_title_2": " into digital reality.",
     "hero_subtitle": "Innovative Solutions in Mobile and Web Development.",
-    "hero_cta": "Get Started",
-    "landing_page": {
-        "hero_title_1": "Transforming ideas "
+    "hero_cta": "Get Started"
     }
 }
