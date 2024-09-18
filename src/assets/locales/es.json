@@ -14,5 +14,9 @@
         "web_dev_description": "Nuestro equipo diseña y desarrolla sitios web receptivos y de alto rendimiento que impulsan el compromiso y el crecimiento.",
         "qa_title": "MVP Consulting",
         "qa_description": "Aseguramos la calidad y el rendimiento óptimo de sus productos con nuestros servicios de consultoría."
+        },
+    "codeSection": {
+        "code_title": "El lenguaje definitivo para crear páginas web",
+        "code_description": "Publique su sitio web en un entorno de alojamiento de alta velocidad y confiabilidad. ¡Escale fácilmente y comience a codificar!"
         }
 }
