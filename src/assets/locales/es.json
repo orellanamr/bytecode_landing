@@ -4,5 +4,19 @@
     "hero_title_2": " en productos digitales.",
     "hero_subtitle": "Soluciones innovadoras en desarrollo móvil y desarrollo Web.",
     "hero_cta": "Conocer más"
-    }
+    },
+    "featuresSection": {
+        "features_title": "Soluciones a medida para tus necesidades",
+        "features_description": "Ofrecemos soluciones especiales para Startups.",
+        "mobile_app_title": "Desarrollo de Aplicaciones Móviles",
+        "mobile_app_description": "Creamos aplicaciones móviles innovadoras y funcionales para iOS y Android, adaptadas a las necesidades de tu negocio.",
+        "web_dev_title": "Desarrollo Web",
+        "web_dev_description": "Nuestro equipo diseña y desarrolla sitios web receptivos y de alto rendimiento que impulsan el compromiso y el crecimiento.",
+        "qa_title": "MVP Consulting",
+        "qa_description": "Aseguramos la calidad y el rendimiento óptimo de sus productos con nuestros servicios de consultoría."
+        },
+    "codeSection": {
+        "code_title": "El lenguaje definitivo para crear páginas web",
+        "code_description": "Publique su sitio web en un entorno de alojamiento de alta velocidad y confiabilidad. ¡Escale fácilmente y comience a codificar!"
+        }
 }

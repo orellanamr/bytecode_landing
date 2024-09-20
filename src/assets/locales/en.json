@@ -4,5 +4,19 @@
     "hero_title_2": " into digital reality.",
     "hero_subtitle": "Innovative Solutions in Mobile and Web Development.",
     "hero_cta": "Get Started"
+    },
+    "featuresSection": {
+        "features_title": "Our Features Special For You",
+        "features_description": "We provide various special features for all of you.",
+        "mobile_app_title": "Mobile App Development",
+        "mobile_app_description": "We create innovative and functional mobile applications for iOS and Android, tailored to your business needs.",
+        "web_dev_title": "Web Development",
+        "web_dev_description": "Our team designs and develops responsive, high-performance websites that drive engagement and growth.",
+        "qa_title": "MVP Consulting",
+        "qa_description": "We ensure the optimal quality and performance of your products with our consulting services."
+    },
+    "codeSection": {
+        "code_title": "The language for building web pages",
+        "code_description": "Go live on a fast, reliable, and hassle-free hosting network that scales with your business with one click and go code!"
     }
 }
