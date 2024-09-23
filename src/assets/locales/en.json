@@ -26,5 +26,20 @@
         "mission_description": "To deliver innovative and high-quality digital solutions that empower businesses to achieve their goals.",
         "vision_title": "Vision",
         "vision_description": "To be the trusted technology partner for startups, providing high-quality custom software solutions that drive their growth and success."
+    },
+    "ourProjects": {
+        "ourProjects_title": "Our Projects",
+        "ourProjects_description": "Discover how we've transformed ideas into successful digital products for our clients. From mobile apps to web portals, explore our portfolio and see the impact of our work."
+    },
+    "faqSection": {
+        "faqSection_title": "FAQs",
+        "question_1": "Can I find the right information faster?",
+        "answer_1": "Nulla lectus lectus, suscipit at posuere sit amet, imperdiet sit amet sapien...",
+        "question_2": "How to share feature demos and ideas?",
+        "answer_2": "Nulla lectus lectus, suscipit at posuere sit amet, imperdiet sit amet sapien...",
+        "question_3": "Can I find the right information faster?",
+        "answer_3": "How to get insights from users?",
+        "question_4": "Can I develop my website without code?",
+        "answer_4": "Can I develop my website without code?"
     }
 }
