@@ -14,7 +14,7 @@ const Footer = () => {
     >
       <Box
         sx={{
-          minHeight: '50vh', // Esto garantiza que ocupe la mitad de la pantalla
+          minHeight: '50vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
