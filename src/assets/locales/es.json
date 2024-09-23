@@ -41,5 +41,13 @@
         "answer_3": "How to get insights from users?",
         "question_4": "Can I develop my website without code?",
         "answer_4": "Can I develop my website without code?"
+    },
+    "footer": {
+        "footer_title": "¡Contáctanos ahora!",
+        "footer_description": "¿Tienes una idea brillante? Déjanos ayudarte a convertirla en realidad.",
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Cuéntanos tus objetivos y desafíos.",
+        "button": "Enviar"
     }
 }
