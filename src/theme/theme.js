@@ -13,7 +13,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: 'Source Code Pro, monospace',
+    fontFamily: 'Source Code Pro, Aeonik, Arial, sans-serif',
     button: {
       fontFamily: 'Aeonik, sans-serif',
     },

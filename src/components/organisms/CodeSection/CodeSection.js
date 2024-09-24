@@ -11,53 +11,60 @@ const NewSection = () => {
   const { t } = useTranslation();
 
   return (
-    <Grid
-      container
-      spacing={2}
-      sx={{ padding: '100px 60px', alignItems: 'center' }}
+    <Box
+      sx={{
+        backgroundColor: 'white', // Fondo blanco para toda la sección
+        padding: '50px 0', // Espaciado alrededor de la sección
+      }}
     >
-      <Grid item xs={12} md={6}>
-        <Box
-          component="img"
-          src={CodeSectionPhoto}
-          alt="Texto en un editor de código"
-          sx={{ width: '100%' }}
-        />
-      </Grid>
+      <Grid
+        container
+        spacing={2}
+        sx={{ padding: '100px 60px', alignItems: 'center' }}
+      >
+        <Grid item xs={12} md={6}>
+          <Box
+            component="img"
+            src={CodeSectionPhoto}
+            alt="Texto en un editor de código"
+            sx={{ width: '100%' }}
+          />
+        </Grid>
 
-      <Grid item xs={12} md={6} sx={{ padding: '0px 50px 0px 50px' }}>
-        <Typography
-          variant="h4"
-          fontFamily="Aeonik"
-          fontWeight="bold"
-          color="#010101"
-        >
-          {t('codeSection.code_title')}
-        </Typography>
-        <Typography
-          variant="body1"
-          fontFamily="Aeonik"
-          color="#010101"
-          mt={2}
-          mb={4}
-        >
-          {t('codeSection.code_description')}
-        </Typography>
-        <Button
-          variant="contained"
-          href="#cta"
-          sx={{
-            backgroundColor: '#010101',
-            color: 'white',
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}
-        >
-          {t('heroSection.hero_cta')}
-          <img src={MyIcon} alt="Mi Icono" style={{ marginLeft: '10px' }} />
-        </Button>
+        <Grid item xs={12} md={6} sx={{ padding: '0px 50px 0px 50px' }}>
+          <Typography
+            variant="h4"
+            fontFamily="Aeonik"
+            fontWeight="bold"
+            color="#010101"
+          >
+            {t('codeSection.code_title')}
+          </Typography>
+          <Typography
+            variant="body1"
+            fontFamily="Aeonik"
+            color="#010101"
+            mt={2}
+            mb={4}
+          >
+            {t('codeSection.code_description')}
+          </Typography>
+          <Button
+            variant="contained"
+            href="#cta"
+            sx={{
+              backgroundColor: '#010101',
+              color: 'white',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            {t('heroSection.hero_cta')}
+            <img src={MyIcon} alt="Mi Icono" style={{ marginLeft: '10px' }} />
+          </Button>
+        </Grid>
       </Grid>
-    </Grid>
+    </Box>
   );
 };
 
